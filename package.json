@@ -1,0 +1,14 @@
+{
+  "name": "js-rss-to-social-post",
+  "version": "1.0.0",
+  "description": "A basic one pager with a bad name that looks at RSS feeds and creates markdown snippets to copy and post on social sites like Squabbles.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files './src/*.html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}
